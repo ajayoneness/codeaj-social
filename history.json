@@ -21,6 +21,25 @@
     "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_07.jpg",
     "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_08.jpg"
    ]
+  },
+  {
+   "date": "2026-11-26",
+   "day": "Thu",
+   "type": "carousel",
+   "slug": "test-2026-11-26-guess-the-output",
+   "topic": "Quiz guess the output: JS [1,2,3]+[4,5] -> '1,2,34,5'; Python 0.1+0.2==0.3 -> False",
+   "cta": "Comment your score",
+   "media_id": "17944497459381723",
+   "story_media_id": "18109964912195703",
+   "test_run": true,
+   "urls": [
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_01.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_02.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_03.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_04.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_05.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_06.jpg"
+   ]
   }
  ],
  "weekly_notes": []

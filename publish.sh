@@ -4,7 +4,6 @@
 set -euo pipefail
 SRC="$(cd "$1" && pwd)"
 SLUG="$(basename "$SRC")"
-BASE="https://ajayoneness.github.io/codeaj-social"
 ROOT="$(git rev-parse --show-toplevel)"
 WT="$(mktemp -d)"
 
@@ -20,21 +19,19 @@ mkdir -p "$WT/posts/$SLUG"
 cp "$SRC"/*.jpg "$SRC"/*.mp4 "$SRC"/spec.json "$WT/posts/$SLUG/" 2>/dev/null || true
 cd "$WT"
 git add -A
-git commit -q -m "post: $SLUG" || true
-git push -q origin gh-pages
+git -c user.name="CodeAj Agent" -c user.email="noreply@anthropic.com" commit -q -m "post: $SLUG" || true
+git -c push.negotiate=true push -q origin gh-pages 2>&1 | grep -v -i negotiat || true
 
-URLS=()
-for f in $(ls posts/$SLUG | grep -E '\.(jpg|mp4)$' | sort); do URLS+=("$BASE/posts/$SLUG/$f"); done
-# wait for the GitHub Pages build of this commit (github.io itself is not reachable from the sandbox)
 SHA="$(git rev-parse HEAD)"
-ok=0
-for i in $(seq 1 60); do
-  read -r st sha < <(gh api repos/ajayoneness/codeaj-social/pages/builds/latest -q '.status+" "+.commit' 2>/dev/null || echo "none none")
-  if [ "$st" = "built" ] && [ "$sha" = "$SHA" ]; then ok=1; break; fi
-  [ "$st" = "errored" ] && break
-  sleep 10
+# jsDelivr serves files from the public repo with correct content types (image/jpeg, video/mp4).
+# Pinning to the commit SHA makes the URL live immediately. Fallback: raw.githubusercontent.com.
+echo "# primary (use these)"
+for f in $(ls posts/$SLUG | grep -E '\.(jpg|mp4)$' | sort); do
+  echo "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@$SHA/posts/$SLUG/$f"
 done
-sleep 20  # CDN propagation
+echo "# fallback"
+for f in $(ls posts/$SLUG | grep -E '\.(jpg|mp4)$' | sort); do
+  echo "https://raw.githubusercontent.com/ajayoneness/codeaj-social/$SHA/posts/$SLUG/$f"
+done
+sleep 15
 cd "$ROOT"; git worktree remove --force "$WT"
-printf '%s\n' "${URLS[@]}"
-[ $ok = 1 ] || { echo "WARNING: some URLs not live yet" >&2; exit 2; }

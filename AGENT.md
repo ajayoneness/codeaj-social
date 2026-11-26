@@ -59,8 +59,9 @@ Write `work/<slug>.json` following the format at the top of `make_post.py`, then
   with ffmpeg). Fix any text overflow, cut-off words or empty slides, and re-render before publishing.
 
 ## 4. Publish the media (public URLs)
-`bash publish.sh out/<slug>` — copies the files to `gh-pages:posts/<slug>/`, pushes, waits until the
-GitHub Pages URLs return 200 and prints them. Base URL: `https://ajayoneness.github.io/codeaj-social/`.
+`bash publish.sh out/<slug>` — copies the files to `gh-pages:posts/<slug>/`, pushes, and prints
+jsDelivr URLs pinned to the commit (use these) plus raw.githubusercontent.com fallbacks. If Instagram
+rejects a jsDelivr URL, retry the action once with the fallback URLs.
 
 ## 5. Post to Instagram (Windsor)
 Wait until the post time in the table (sleep if early; do not post more than 15 min late —

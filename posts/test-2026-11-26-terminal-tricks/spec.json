@@ -1,0 +1,39 @@
+{
+  "type": "reel",
+  "slug": "test-2026-11-26-terminal-tricks",
+  "voice": "bf_emma",
+  "scenes": [
+    {
+      "text": "Still retyping terminal commands?",
+      "sub": "3 tricks in 30 seconds",
+      "vo": "Still typing the same terminal commands again and again? Stop."
+    },
+    {
+      "text": "cd -",
+      "sub": "jump back to your last folder",
+      "vo": "Trick one. cd dash takes you straight back to the folder you were just in."
+    },
+    {
+      "text": "sudo !!",
+      "sub": "rerun last command with sudo",
+      "vo": "Trick two. Forgot sudo? Type sudo, bang bang, and it reruns your last command with sudo."
+    },
+    {
+      "text": "Ctrl + R",
+      "sub": "search your command history",
+      "vo": "Trick three. Press control R and start typing to search every command you have run."
+    },
+    {
+      "text": "Which one did you know?",
+      "sub": "1, 2 or 3? Tell us below",
+      "vo": "Which one did you already know? Tell us in the comments."
+    },
+    {
+      "text": "Comment TERMINAL",
+      "sub": "for more dev shortcuts",
+      "vo": "Comment terminal and we will send you more shortcuts. Save this for later."
+    }
+  ],
+  "cta": "Comment TERMINAL",
+  "caption": "3 terminal tricks you'll use every single day 👇\n\n1️⃣ cd - → jump back to the previous folder\n2️⃣ sudo !! → rerun your last command with sudo\n3️⃣ Ctrl + R → search your whole command history\n\nWhich one did you already know: 1, 2 or 3?\n\nComment TERMINAL for more dev shortcuts. Save this so you don't forget.\n\n#codingtips #btechcse #bcaproject #developers #codeaj #linux"
+}

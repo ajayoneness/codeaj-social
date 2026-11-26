@@ -1,0 +1,11 @@
+{
+  "type": "story",
+  "slug": "test-2026-11-26-list-vs-set",
+  "scenes": [
+    {
+      "text": "Which lookup is faster in Python?",
+      "sub": "A) x in my_list  vs  B) x in my_set"
+    }
+  ],
+  "cta": "Reply A or B"
+}

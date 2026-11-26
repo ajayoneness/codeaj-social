@@ -1,0 +1,57 @@
+{
+  "type": "carousel",
+  "slug": "test-2026-11-26-guess-the-output",
+  "slides": [
+    {
+      "kicker": "Coding quiz",
+      "title": "Guess the output. Two tricky ones",
+      "body": "Comment your answers before you swipe."
+    },
+    {
+      "kicker": "Question 1 / JavaScript",
+      "title": "What does this print?",
+      "code": "console.log([1, 2, 3] + [4, 5]);",
+      "options": [
+        "[1, 2, 3, 4, 5]",
+        "1,2,34,5",
+        "TypeError",
+        "NaN"
+      ]
+    },
+    {
+      "kicker": "Answer: B",
+      "title": "1,2,34,5",
+      "body": "+ turns both arrays into strings: \"1,2,3\" and \"4,5\". Then it joins them. Use [...a, ...b] to merge arrays."
+    },
+    {
+      "kicker": "Question 2 / Python",
+      "title": "True or False?",
+      "code": "print(0.1 + 0.2 == 0.3)",
+      "options": [
+        "True",
+        "False",
+        "Error"
+      ]
+    },
+    {
+      "kicker": "Answer: B",
+      "title": "False",
+      "code": ">>> 0.1 + 0.2\n0.30000000000000004",
+      "points": [
+        "Floats are stored in binary, not exactly",
+        "Compare with math.isclose(a, b)"
+      ]
+    },
+    {
+      "kicker": "How many did you get?",
+      "title": "Got both right? Tell us",
+      "body": "Learn the why behind your code with live mentorship. projects.codeaj.com"
+    }
+  ],
+  "cta": "Comment your score",
+  "review": {
+    "name": "Ganesh Sawant",
+    "text": "The team was very professional, supportive, and helpful throughout the entire project. They explained everything clearly."
+  },
+  "caption": "Two tiny lines. Most people get at least one wrong.\n\nQ1 (JavaScript): what does [1, 2, 3] + [4, 5] print?\nQ2 (Python): is 0.1 + 0.2 == 0.3 True or False?\n\nAnswers are on slides 3 and 5. No peeking.\n\nComment your score: 0/2, 1/2 or 2/2. Send this to the friend who says they know JavaScript.\n\n#codingquiz #javascript #python #btechcse #bcaproject #codeaj"
+}

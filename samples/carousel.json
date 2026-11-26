@@ -1,0 +1,15 @@
+{
+  "type": "carousel",
+  "slug": "sample-viva-questions",
+  "caption": "7 questions your viva panel will almost certainly ask 👀\nSave this before your submission.\n\nWhich domain is your project in? Tell us in the comments 👇\n\n#finalyearproject #bcaproject #btechcse #vivaquestions #codeaj",
+  "slides": [
+    {"kicker": "Viva prep", "title": "7 questions every viva panel asks", "body": "AI can write your code. The panel will still question you. Save this."},
+    {"kicker": "Q1–Q2", "title": "Where it always starts", "points": ["What problem does your project solve?", "Where do we see this problem in real life?"]},
+    {"kicker": "Q3–Q4", "title": "Know your tech stack", "points": ["Why did you choose this tech stack?", "Explain your database structure"]},
+    {"kicker": "Q5–Q6", "title": "Where most students get stuck", "points": ["What does this function do, line by line?", "How did you measure your model's accuracy?"]},
+    {"kicker": "Q7", "title": "The last and most important one", "points": ["How would you improve this project next?"]},
+    {"kicker": "CodeAj Mentorship", "title": "Your project and your viva, both covered", "body": "We walk you through your project line by line in a live Google Meet session."}
+  ],
+  "cta": "Comment VIVA",
+  "review": {"name": "Ganesh Sawant", "text": "The team was very professional, supportive, and helpful throughout the entire project. They explained everything clearly."}
+}

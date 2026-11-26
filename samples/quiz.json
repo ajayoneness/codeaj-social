@@ -1,0 +1,5 @@
+{"type":"carousel","slug":"q","slides":[
+ {"kicker":"Python quiz","title":"Guess the output. 90% get this wrong","body":"Answer in the comments before you swipe."},
+ {"kicker":"Question","title":"What does this print?","code":"nums = [1, 2, 3]\nnums2 = nums\nnums2.append(4)\nprint(nums)","options":["[1, 2, 3]","[1, 2, 3, 4]","Error"]},
+ {"kicker":"Answer: B","title":"[1, 2, 3, 4]","body":"nums2 = nums does not copy the list. Both names point to the same object. Use nums.copy() instead."}
+],"cta":"Comment your score","review":{"name":"Ganesh Sawant","text":"They explained everything clearly."}}

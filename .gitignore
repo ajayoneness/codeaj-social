@@ -1,0 +1,6 @@
+tts/*.onnx
+tts/*.bin
+tts/*.wav
+out/
+work/
+__pycache__/

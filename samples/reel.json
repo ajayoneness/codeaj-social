@@ -1,0 +1,15 @@
+{
+  "type": "reel",
+  "slug": "sample-ai-viva-reel",
+  "voice": "af_heart",
+  "caption": "AI built your project. Can you explain it in the viva? 🤔\nComment MENTOR and we'll DM you the details.\n\n#finalyearproject #btechcse #bcaproject #aiprojects #codeaj",
+  "scenes": [
+    {"text": "AI built your final year project", "vo": "So, AI built your final year project. Nice."},
+    {"text": "Then the viva: \"What does this function do?\"", "vo": "Then comes the viva. Your guide points at the screen and asks, what does this function do?"},
+    {"text": "Writing code is easy. Explaining it isn't.", "vo": "Writing code is easy now. Explaining it is the real test."},
+    {"text": "CodeAj Mentorship", "sub": "Live Google Meet session · your project, line by line", "vo": "With CodeAj Mentorship, we walk you through your entire project, line by line, in a live session."},
+    {"text": "500+ projects · 5.0 on Google", "sub": "Setup + code walkthrough + viva prep", "vo": "Five hundred plus projects, and a five star rating on Google."},
+    {"text": "Walk into your viva ready", "vo": "Want the details? Comment, mentor."}
+  ],
+  "cta": "Comment MENTOR"
+}

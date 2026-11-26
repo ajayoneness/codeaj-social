@@ -1,1 +1,27 @@
-{"posts": [], "weekly_notes": []}
+{
+ "posts": [
+  {
+   "date": "2026-11-26",
+   "day": "Thu",
+   "type": "carousel",
+   "slug": "2026-11-26-git-cheat-sheet",
+   "topic": "Git cheat sheet: daily loop, branches, restore/revert/amend, stash, log/diff/blame, reflog",
+   "cta": "Comment GIT",
+   "media_id": "17926638444219647",
+   "story_media_id": "18084701591715997",
+   "permalink": "https://www.instagram.com/p/DgMzmEZgk0M/",
+   "posted_at_ist": "15:15 (late; slot 12:30)",
+   "urls": [
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_01.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_02.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_03.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_04.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_05.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_06.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_07.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_08.jpg"
+   ]
+  }
+ ],
+ "weekly_notes": []
+}

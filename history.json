@@ -40,6 +40,21 @@
     "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_05.jpg",
     "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_06.jpg"
    ]
+  },
+  {
+   "date": "2026-11-26",
+   "day": "Thu",
+   "type": "reel",
+   "slug": "test-2026-11-26-terminal-tricks",
+   "topic": "3 terminal tricks: cd -, sudo !!, Ctrl+R history search",
+   "cta": "Comment TERMINAL",
+   "media_id": "17930315262204747",
+   "story_media_id": "18130448368846664",
+   "test_run": true,
+   "urls": [
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@baa8447d394160720039633f10f65f154972952c/posts/test-2026-11-26-terminal-tricks/reel.mp4",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@baa8447d394160720039633f10f65f154972952c/posts/test-2026-11-26-terminal-tricks/cover.jpg"
+   ]
   }
  ],
  "weekly_notes": []

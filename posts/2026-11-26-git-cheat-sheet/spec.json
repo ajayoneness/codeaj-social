@@ -1,0 +1,71 @@
+{
+  "type": "carousel",
+  "slug": "2026-11-26-git-cheat-sheet",
+  "slides": [
+    {
+      "kicker": "Save this",
+      "title": "Git commands that save your project",
+      "body": "Swipe before your next panic at 2 AM."
+    },
+    {
+      "kicker": "1 / The daily loop",
+      "title": "Check, stage, commit, push",
+      "code": "git status\ngit add .\ngit commit -m \"add login page\"\ngit push",
+      "points": [
+        "Run git status before every commit"
+      ]
+    },
+    {
+      "kicker": "2 / Branches",
+      "title": "Never code on main",
+      "code": "git switch -c feature/login\n# ...work, commit...\ngit switch main\ngit merge feature/login",
+      "points": [
+        "One branch per feature"
+      ]
+    },
+    {
+      "kicker": "3 / Undo safely",
+      "title": "Made a mistake? Undo it",
+      "code": "git restore app.py\ngit restore --staged app.py\ngit commit --amend\ngit revert <commit-id>",
+      "points": [
+        "restore: drop unsaved edits",
+        "revert: undo a pushed commit safely"
+      ]
+    },
+    {
+      "kicker": "4 / Pause your work",
+      "title": "Switch tasks without losing code",
+      "code": "git stash\n# fix the urgent bug\ngit stash pop",
+      "points": [
+        "Stash parks changes, pop brings them back"
+      ]
+    },
+    {
+      "kicker": "5 / See history",
+      "title": "What changed, and when?",
+      "code": "git log --oneline --graph\ngit diff\ngit blame app.py",
+      "points": [
+        "diff shows edits not yet staged"
+      ]
+    },
+    {
+      "kicker": "6 / The lifesaver",
+      "title": "Deleted a commit? Find it",
+      "code": "git reflog\ngit switch -c rescue <id>",
+      "points": [
+        "reflog remembers where HEAD has been"
+      ]
+    },
+    {
+      "kicker": "Stuck on Git in your project?",
+      "title": "We set it up with you, live",
+      "body": "Project setup and code walkthrough over Google Meet. projects.codeaj.com"
+    }
+  ],
+  "cta": "Comment GIT",
+  "review": {
+    "name": "Ganesh Sawant",
+    "text": "The team was very professional, supportive, and helpful throughout the entire project. They explained everything clearly."
+  },
+  "caption": "Save this before your next merge conflict.\n\n6 Git commands every CS student should know: the daily loop, branches, safe undo, stash, history and reflog (the one that brings deleted commits back).\n\nWhich Git command has saved you the most? Tell us below.\n\nStuck setting up Git for your project? Comment GIT and we will help you live.\n\n#git #finalyearproject #btechcse #bcaproject #aiprojects #codeaj"
+}

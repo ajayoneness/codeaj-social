@@ -1,0 +1,66 @@
+{
+  "type": "carousel",
+  "slug": "2026-11-27-this-week-in-tech",
+  "slides": [
+    {
+      "kicker": "This week in tech",
+      "title": "5 dev stories you missed this week",
+      "body": "Nov 23–27, 2026. Swipe for the short version."
+    },
+    {
+      "kicker": "Security",
+      "title": "1Password: hacked through a GitHub account",
+      "body": "An attacker got into an employee's GitHub, copied private code and some user names and emails. Vaults were not accessed.",
+      "points": [
+        "Why it matters: one leaked login can expose a lot",
+        "Turn on 2FA and passkeys today"
+      ]
+    },
+    {
+      "kicker": "Security",
+      "title": "Todoist confirms data breach",
+      "body": "Stolen credentials led to customer data being taken. TechCrunch reports about 6% of customers were affected.",
+      "points": [
+        "Why it matters: never reuse passwords",
+        "Rotate API tokens you have shared"
+      ]
+    },
+    {
+      "kicker": "AI + Rust",
+      "title": "Anthropic moved its API from Python to Rust",
+      "body": "Anthropic says the Rust version uses about 70% less CPU per request. Claude wrote the first core version in about a week.",
+      "points": [
+        "Why it matters: AI speeds up big rewrites",
+        "Profile your code before you scale it"
+      ]
+    },
+    {
+      "kicker": "Open source",
+      "title": "OpenAI and Cisco release Shirudo",
+      "body": "An open-source Linux runtime that uses eBPF shields to block vulnerable code paths while patches roll out.",
+      "points": [
+        "Why it matters: eBPF is key to Linux security",
+        "Great topic for a security project"
+      ]
+    },
+    {
+      "kicker": "Browsers",
+      "title": "Ladybird browser alpha is out",
+      "body": "Alpha builds of the independent Ladybird browser are now downloadable for macOS and Linux.",
+      "points": [
+        "Why it matters: a new browser engine is rare",
+        "Read its code to learn how browsers work"
+      ]
+    },
+    {
+      "kicker": "Your turn",
+      "title": "Which story surprised you most?",
+      "body": "Reply 1 to 5 in the comments. Want a project built on one of these ideas?"
+    }
+  ],
+  "cta": "Comment TECH",
+  "review": {
+    "name": "Ganesh Sawant",
+    "text": "The team was very professional, supportive, and helpful throughout the entire project. They explained everything clearly."
+  }
+}

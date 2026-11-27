@@ -8,12 +8,12 @@
       "body": "Nov 23–27, 2026. Swipe for the short version."
     },
     {
-      "kicker": "Security",
-      "title": "1Password: hacked through a GitHub account",
-      "body": "An attacker got into an employee's GitHub, copied private code and some user names and emails. Vaults were not accessed.",
+      "kicker": "GitHub",
+      "title": "Copilot code review billing is changing",
+      "body": "From Dec 30, 2026, Copilot code review on Business and Enterprise plans will be billed to the organization by default.",
       "points": [
-        "Why it matters: one leaked login can expose a lot",
-        "Turn on 2FA and passkeys today"
+        "Why it matters: AI tools now have real costs",
+        "Admins can pick Member to keep billing as is"
       ]
     },
     {
@@ -22,7 +22,7 @@
       "body": "Stolen credentials led to customer data being taken. TechCrunch reports about 6% of customers were affected.",
       "points": [
         "Why it matters: never reuse passwords",
-        "Rotate API tokens you have shared"
+        "Turn on 2FA and rotate shared API tokens"
       ]
     },
     {

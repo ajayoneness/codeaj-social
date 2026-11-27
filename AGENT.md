@@ -34,6 +34,29 @@ engagement posts people save, answer and send to friends.
 Never repeat a topic, quiz question or project from the last 30 entries in history.json.
 Code shown must be correct: run any quiz snippet with python3/node in the sandbox and use the real output.
 
+## 1a. Festival / special day check (every run, before the news check)
+Ajay wants a festival post on festival days. Check if today (IST) is one of these:
+- Fixed dates: New Year (Jan 1), Republic Day (Jan 26), National Science Day (Feb 28),
+  Women's Day (Mar 8), Pi Day (Mar 14), Independence Day (Aug 15), Teachers' Day (Sep 5),
+  Programmers' Day (256th day of the year: Sep 13, or Sep 12 in a leap year),
+  Engineers' Day (Sep 15), Gandhi Jayanti (Oct 2), Children's Day (Nov 14), Christmas (Dec 25).
+- Dates that change every year (verify today's date with one web search, e.g. an Indian
+  government holiday list or timeanddate.com): Makar Sankranti / Pongal / Lohri, Holi,
+  Eid al-Fitr, Eid al-Adha, Raksha Bandhan, Janmashtami, Ganesh Chaturthi, Navratri,
+  Dussehra, Diwali, Bhai Dooj, Guru Nanak Jayanti.
+If it is a festival day, today's post is a festival post in today's format (carousel, reel or story),
+rendered with `"style": "festival"` and `"festival": "<name>"`. It takes priority over the
+normal theme and over news (a news story can wait a day).
+- Content: a warm greeting plus a light developer twist that people want to share
+  (e.g. Diwali: "clean your code like you clean your home" checklist; Independence Day: Indian
+  tech milestones; Teachers' Day: thank your mentor; Programmers' Day: a fun quiz). Facts only
+  if verified.
+- Be respectful and inclusive: no deity images, no religious claims or jokes about any faith,
+  no politics. Use the style's drawn decorations only (no copied artwork, logos or photos).
+- Caption starts with the greeting (e.g. "Happy Diwali from CodeAj!"), add 1–2 festival
+  hashtags (#HappyDiwali) to the usual ones. Log `"festival": "<name>"` in history.json.
+- On a festival day that is a reel day, the reel can be 4–5 scenes with a calm, warm voiceover.
+
 ## 1b. Breaking tech news check (every run, 1–2 searches)
 Before using the day's theme, search for big tech news from the last 24–48 hours
 (e.g. `AI news today`, `developer news today`). If there is a **major** story that developers and
@@ -80,6 +103,21 @@ Write `work/<slug>.json` following the format at the top of `make_post.py`, then
 - Then **look at every rendered image** (Read the JPGs; for reels read `cover.jpg` and 2 frames extracted
   with ffmpeg). Fix any text overflow, cut-off words or empty slides, and re-render before publishing.
 
+## 3a. Design: every post must look different (Ajay's rule)
+Ajay does not want every carousel, reel and story to look the same. `make_post.py` has several
+design styles (`python3 make_post.py --styles`): classic, terminal, poster, editorial, pop,
+minimal, festival. Every spec must set `"style"`:
+- Read the `style` of the last 5 entries in history.json and pick a style that is NOT among them
+  (if all are used, pick the least recent). Never use the same style two posts in a row.
+- `festival` is only for festival days (section 1a).
+- Match the style to the content when there is a choice: terminal for code/Git/quiz posts,
+  editorial for news and explainers, poster for bold lists and hooks, pop for fun/engagement,
+  minimal for interview/viva Q&A, classic for project demos and trust posts.
+- The story on feed days uses the same style as the feed post.
+- Also vary the slide structure, not only the colours. Rotate between: step-by-step list,
+  myth vs fact, before vs after, A vs B comparison, question then answer, checklist, "3 mistakes".
+- Log the chosen `style` in history.json.
+
 ## 4. Publish the media (public URLs)
 `bash publish.sh out/<slug>` — copies the files to `gh-pages:posts/<slug>/`, pushes, and prints
 jsDelivr URLs pinned to the commit (use these) plus raw.githubusercontent.com fallbacks. If Instagram
@@ -96,7 +134,7 @@ If an action fails, retry once; if it still fails (e.g. Windsor trial expired, p
 stop and report the error.
 
 ## 6. Log and report
-Append `{date, day, type, slug, topic, cta, media_id, urls}` to `history.json` on `gh-pages`, commit, push.
+Append `{date, day, type, slug, topic, style, cta, media_id, urls}` (plus `festival` / `news` when they apply) to `history.json` on `gh-pages`, commit, push.
 End with a 3-line summary: what was posted, the post link (media_permalink via `get_data` if available),
 and anything that failed. Use PushNotification if available.
 

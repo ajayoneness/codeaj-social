@@ -23,6 +23,9 @@ Pillars:
    IntrusionIQ, RailGrid AI, JobLens, road hazard detection
 5. Behind the scenes & trust (reel) — how a mentorship session works, Google rating, review quotes
 
+Tech news: breaking developer/AI news replaces the day's theme when it is big (max 3 a week),
+and every Friday is a "This week in tech" carousel. Only verified sources, written in our own words.
+
 Other things to feature occasionally: HACKLUME hackathon (certificates, coupons, cash prize),
 quiz.codeaj.com (earn points → discount coupons), Roast My Resume, AI Project Idea Finder.
 

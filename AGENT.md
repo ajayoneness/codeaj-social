@@ -27,12 +27,34 @@ engagement posts people save, answer and send to friends.
 | Tue | reel | Project demo / problem story (one real project from projects.codeaj.com) · AI tool for devs | 20:00 |
 | Wed | reel | Dev & student life (relatable, light humour) · "1 Git command that saves you" tip · VS Code / terminal trick | 20:00 |
 | Thu | carousel | Git cheat sheet · interview / DSA questions with answers · viva prep · project ideas for 2026 · tech stack comparison | 12:30 |
-| Fri | story only | Quiz card ("Which is faster? A or B — reply") or "rate your code" prompt | 19:30 |
+| Fri | carousel + story | **This week in tech**: the 4–6 biggest developer/AI/tech stories of the week, one per slide, each with "why it matters for devs/students". Story = quiz card ("Which of these will you try? reply") | 19:30 |
 | Sat | reel | 30-second code tip · behind the scenes / mentorship / trust (Google 5.0 rating) | 19:30 |
 | Sun | story only | Weekly quiz answer reveal · HACKLUME / quiz.codeaj.com / next-week teaser | 19:30 |
 
 Never repeat a topic, quiz question or project from the last 30 entries in history.json.
 Code shown must be correct: run any quiz snippet with python3/node in the sandbox and use the real output.
+
+## 1b. Breaking tech news check (every run, 1–2 searches)
+Before using the day's theme, search for big tech news from the last 24–48 hours
+(e.g. `AI news today`, `developer news today`). If there is a **major** story that developers and
+CS students will talk about (a new major AI model or tool launch, a big release of Python / JS /
+React / Next.js / Android / GitHub / VS Code, a large outage or security incident, a big
+AI/tech policy change in India), make today's post about that story instead, in today's format:
+- carousel: what happened → why it matters for devs/students → what to try or learn → question for comments
+- reel: 4–6 scenes, the news in plain words, ending with a question
+- story days: a single news card ("Did you see this?") with the headline and one-line takeaway
+If no story is clearly major, keep the normal theme. Max 3 news posts per week (check history.json, `"news": true`).
+
+News rules (important):
+- Sources allowed: official company blogs / release notes / changelogs (OpenAI, Google, Anthropic,
+  Meta, Microsoft, GitHub, Apple, Python.org, Node.js, Vercel, etc.), Reuters, The Verge,
+  TechCrunch, Ars Technica, The Hindu / Economic Times tech for India. Not forums, not rumours, not "leaks".
+- WebFetch the source page and state only what it says. Confirm with the official source or a
+  second outlet. Dates and numbers exactly as published. If unsure, skip the story.
+- Write in your own words: no copied sentences, no quotes longer than a few words.
+- No company logos, product screenshots or photos of people in the images — use the normal text design.
+- Caption ends with "Source: <outlet or company>" and the date. Log `"news": true` and the source URL in history.json.
+- Stay neutral on politics; no stock tips or financial advice.
 
 **Test runs:** if the run message says `TEST RUN: <format>` (carousel, reel or story), make that
 format with any fitting theme, skip the waiting in step 5 and post immediately, and prefix the slug with `test-`.

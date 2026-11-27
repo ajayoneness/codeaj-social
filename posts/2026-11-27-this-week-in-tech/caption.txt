@@ -1,12 +1,12 @@
-5 dev stories from this week, in 60 seconds. 🧑‍💻
+4 dev stories from this week, in 60 seconds 🧑‍💻
 
-GitHub is changing who pays for Copilot code review. Todoist confirmed a breach that started with stolen credentials. Anthropic moved its API from Python to Rust. OpenAI and Cisco open-sourced Shirudo, an eBPF security runtime. And the Ladybird browser shipped its first downloadable alpha.
+Todoist confirmed a breach that started with stolen credentials. OpenAI and Cisco open-sourced Shirudo, an eBPF tool that shields unpatched Linux systems. Anthropic moved its Messages API from Python to Rust. And the independent Ladybird browser shipped its first alpha.
 
-Save this so you can catch up later, and send it to the friend who still reuses passwords.
+Save this to catch up later, and send it to the friend who still reuses passwords.
 
-Which story surprised you most? Reply 1 to 5 👇
+Which one will you try? Reply with the slide number 👇
 Want a project built on one of these ideas? Comment TECH.
 
-Sources: TechCrunch (Nov 25), Anthropic (Nov 25), GitHub changelog (Nov 25), OpenAI (Nov 23), Ladybird (Nov 23), 2026.
+Sources: TechCrunch (Nov 25), BleepingComputer (Nov 24), Anthropic (Nov 25), Ladybird (Nov 23), 2026.
 
 #finalyearproject #btechcse #bcaproject #aiprojects #codeaj #technews

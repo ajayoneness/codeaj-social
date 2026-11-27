@@ -77,6 +77,33 @@
     "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_05.jpg",
     "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_06.jpg"
    ]
+  },
+  {
+   "date": "2026-11-27",
+   "day": "Fri",
+   "type": "carousel",
+   "slug": "2026-11-27-this-week-in-tech",
+   "topic": "This week in tech: Todoist breach (6% of customers), OpenAI+Cisco Shirudo eBPF shields, Anthropic Messages API Python->Rust (~70% less CPU), Ladybird browser alpha",
+   "style": "editorial",
+   "cta": "Comment TECH",
+   "media_id": "17885000088630550",
+   "story_media_id": "18103409699391078",
+   "news": true,
+   "source": [
+    "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+    "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+    "https://www.anthropic.com/research/migrating-api-to-rust",
+    "https://ladybird.org/posts/alpha/"
+   ],
+   "urls": [
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_01.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_02.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_03.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_04.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_05.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_06.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@df9f3f8de8e38c4a9bcb63ca5045bb14c776edf0/posts/2026-11-27-this-week-in-tech-story/story.jpg"
+   ]
   }
  ],
  "weekly_notes": []

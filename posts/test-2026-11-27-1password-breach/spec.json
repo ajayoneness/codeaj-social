@@ -1,0 +1,52 @@
+{
+  "type": "carousel",
+  "slug": "test-2026-11-27-1password-breach",
+  "slides": [
+    {
+      "kicker": "Breaking",
+      "title": "1Password got breached via GitHub",
+      "body": "1Password shared details of a security incident on Nov 25, 2026. Here is what devs should learn."
+    },
+    {
+      "kicker": "What happened",
+      "title": "One employee GitHub account",
+      "body": "An attacker got into an employee's corporate GitHub account, copied private source code and reached the CI/CD system.",
+      "points": [
+        "Some user names and emails were downloaded",
+        "Vault contents were never accessed"
+      ]
+    },
+    {
+      "kicker": "What happened",
+      "title": "Malicious code pushed to backend",
+      "body": "1Password says the attacker pushed code to backend services to pull admin data. It restored clean versions and rotated credentials."
+    },
+    {
+      "kicker": "Why it matters",
+      "title": "Your repo is the front door",
+      "body": "Access to one developer account opened source code and the build pipeline.",
+      "points": [
+        "Protect GitHub like your bank login",
+        "CI/CD secrets are high-value targets"
+      ]
+    },
+    {
+      "kicker": "What to do today",
+      "title": "Lock down your GitHub",
+      "points": [
+        "Turn on 2FA or a passkey",
+        "Never commit secrets; use env variables"
+      ]
+    },
+    {
+      "kicker": "Your turn",
+      "title": "Is 2FA on your GitHub right now?",
+      "body": "Reply YES or NOT YET. Be honest."
+    }
+  ],
+  "cta": "Comment SECURE",
+  "review": {
+    "name": "Ganesh Sawant",
+    "text": "The team was very professional, supportive, and helpful throughout the entire project. They explained everything clearly."
+  }
+}

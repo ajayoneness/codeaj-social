@@ -55,6 +55,28 @@
     "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@baa8447d394160720039633f10f65f154972952c/posts/test-2026-11-26-terminal-tricks/reel.mp4",
     "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@baa8447d394160720039633f10f65f154972952c/posts/test-2026-11-26-terminal-tricks/cover.jpg"
    ]
+  },
+  {
+   "date": "2026-11-27",
+   "day": "Fri",
+   "type": "carousel",
+   "slug": "test-2026-11-27-1password-breach",
+   "topic": "Breaking news: 1Password security incident via employee GitHub account (source code, CI/CD, some names/emails; vaults not accessed)",
+   "cta": "Comment SECURE",
+   "media_id": "17999118845842257",
+   "story_media_id": "18082083311433905",
+   "permalink": "https://www.instagram.com/p/DgPW02PkdgX/",
+   "test_run": true,
+   "news": true,
+   "source": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "urls": [
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_01.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_02.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_03.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_04.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_05.jpg",
+    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_06.jpg"
+   ]
   }
  ],
  "weekly_notes": []

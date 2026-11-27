@@ -31,3 +31,6 @@ quiz.codeaj.com (earn points → discount coupons), Roast My Resume, AI Project 
 
 Hooks that work: start with a fear or a question, never with the logo.
 Captions: English, short, end with a question + CTA keyword. 4–6 specific hashtags.
+
+Design: every post uses a different visual style (make_post.py styles: terminal, poster, editorial,
+pop, minimal, classic, festival) and a different slide structure. Festival days get a festival post.

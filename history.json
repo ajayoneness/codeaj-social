@@ -1,110 +1,127 @@
 {
- "posts": [
-  {
-   "date": "2026-11-26",
-   "day": "Thu",
-   "type": "carousel",
-   "slug": "2026-11-26-git-cheat-sheet",
-   "topic": "Git cheat sheet: daily loop, branches, restore/revert/amend, stash, log/diff/blame, reflog",
-   "cta": "Comment GIT",
-   "media_id": "17926638444219647",
-   "story_media_id": "18084701591715997",
-   "permalink": "https://www.instagram.com/p/DgMzmEZgk0M/",
-   "posted_at_ist": "15:15 (late; slot 12:30)",
-   "urls": [
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_01.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_02.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_03.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_04.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_05.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_06.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_07.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_08.jpg"
-   ]
-  },
-  {
-   "date": "2026-11-26",
-   "day": "Thu",
-   "type": "carousel",
-   "slug": "test-2026-11-26-guess-the-output",
-   "topic": "Quiz guess the output: JS [1,2,3]+[4,5] -> '1,2,34,5'; Python 0.1+0.2==0.3 -> False",
-   "cta": "Comment your score",
-   "media_id": "17944497459381723",
-   "story_media_id": "18109964912195703",
-   "test_run": true,
-   "urls": [
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_01.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_02.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_03.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_04.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_05.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_06.jpg"
-   ]
-  },
-  {
-   "date": "2026-11-26",
-   "day": "Thu",
-   "type": "reel",
-   "slug": "test-2026-11-26-terminal-tricks",
-   "topic": "3 terminal tricks: cd -, sudo !!, Ctrl+R history search",
-   "cta": "Comment TERMINAL",
-   "media_id": "17930315262204747",
-   "story_media_id": "18130448368846664",
-   "test_run": true,
-   "urls": [
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@baa8447d394160720039633f10f65f154972952c/posts/test-2026-11-26-terminal-tricks/reel.mp4",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@baa8447d394160720039633f10f65f154972952c/posts/test-2026-11-26-terminal-tricks/cover.jpg"
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "day": "Fri",
-   "type": "carousel",
-   "slug": "test-2026-11-27-1password-breach",
-   "topic": "Breaking news: 1Password security incident via employee GitHub account (source code, CI/CD, some names/emails; vaults not accessed)",
-   "cta": "Comment SECURE",
-   "media_id": "17999118845842257",
-   "story_media_id": "18082083311433905",
-   "permalink": "https://www.instagram.com/p/DgPW02PkdgX/",
-   "test_run": true,
-   "news": true,
-   "source": "https://1password.com/blog/update-on-nov-2026-security-incident",
-   "urls": [
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_01.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_02.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_03.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_04.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_05.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_06.jpg"
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "day": "Fri",
-   "type": "carousel",
-   "slug": "2026-11-27-this-week-in-tech",
-   "topic": "This week in tech: Todoist breach (6% of customers), OpenAI+Cisco Shirudo eBPF shields, Anthropic Messages API Python->Rust (~70% less CPU), Ladybird browser alpha",
-   "style": "editorial",
-   "cta": "Comment TECH",
-   "media_id": "17885000088630550",
-   "story_media_id": "18103409699391078",
-   "news": true,
-   "source": [
-    "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
-    "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-    "https://www.anthropic.com/research/migrating-api-to-rust",
-    "https://ladybird.org/posts/alpha/"
-   ],
-   "urls": [
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_01.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_02.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_03.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_04.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_05.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_06.jpg",
-    "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@df9f3f8de8e38c4a9bcb63ca5045bb14c776edf0/posts/2026-11-27-this-week-in-tech-story/story.jpg"
-   ]
-  }
- ],
- "weekly_notes": []
+  "posts": [
+    {
+      "date": "2026-11-26",
+      "day": "Thu",
+      "type": "carousel",
+      "slug": "2026-11-26-git-cheat-sheet",
+      "topic": "Git cheat sheet: daily loop, branches, restore/revert/amend, stash, log/diff/blame, reflog",
+      "cta": "Comment GIT",
+      "media_id": "17926638444219647",
+      "story_media_id": "18084701591715997",
+      "permalink": "https://www.instagram.com/p/DgMzmEZgk0M/",
+      "posted_at_ist": "15:15 (late; slot 12:30)",
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_01.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_02.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_03.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_04.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_05.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_06.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_07.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@fdc57ca3fd6bb5163ae975bc7b3c0290d48fac99/posts/2026-11-26-git-cheat-sheet/slide_08.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "day": "Thu",
+      "type": "carousel",
+      "slug": "test-2026-11-26-guess-the-output",
+      "topic": "Quiz guess the output: JS [1,2,3]+[4,5] -> '1,2,34,5'; Python 0.1+0.2==0.3 -> False",
+      "cta": "Comment your score",
+      "media_id": "17944497459381723",
+      "story_media_id": "18109964912195703",
+      "test_run": true,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_01.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_02.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_03.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_04.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_05.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@594a1b0534cea99f862ce2883bf827ba4572a949/posts/test-2026-11-26-guess-the-output/slide_06.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "day": "Thu",
+      "type": "reel",
+      "slug": "test-2026-11-26-terminal-tricks",
+      "topic": "3 terminal tricks: cd -, sudo !!, Ctrl+R history search",
+      "cta": "Comment TERMINAL",
+      "media_id": "17930315262204747",
+      "story_media_id": "18130448368846664",
+      "test_run": true,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@baa8447d394160720039633f10f65f154972952c/posts/test-2026-11-26-terminal-tricks/reel.mp4",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@baa8447d394160720039633f10f65f154972952c/posts/test-2026-11-26-terminal-tricks/cover.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "day": "Fri",
+      "type": "carousel",
+      "slug": "test-2026-11-27-1password-breach",
+      "topic": "Breaking news: 1Password security incident via employee GitHub account (source code, CI/CD, some names/emails; vaults not accessed)",
+      "cta": "Comment SECURE",
+      "media_id": "17999118845842257",
+      "story_media_id": "18082083311433905",
+      "permalink": "https://www.instagram.com/p/DgPW02PkdgX/",
+      "test_run": true,
+      "news": true,
+      "source": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_01.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_02.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_03.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_04.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_05.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@58e8228389fe4318aebee4f435d681f5d441b52b/posts/test-2026-11-27-1password-breach/slide_06.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "day": "Fri",
+      "type": "carousel",
+      "slug": "2026-11-27-this-week-in-tech",
+      "topic": "This week in tech: Todoist breach (6% of customers), OpenAI+Cisco Shirudo eBPF shields, Anthropic Messages API Python->Rust (~70% less CPU), Ladybird browser alpha",
+      "style": "editorial",
+      "cta": "Comment TECH",
+      "media_id": "17885000088630550",
+      "story_media_id": "18103409699391078",
+      "news": true,
+      "source": [
+        "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+        "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+        "https://www.anthropic.com/research/migrating-api-to-rust",
+        "https://ladybird.org/posts/alpha/"
+      ],
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_01.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_02.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_03.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_04.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_05.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@a83a3dc2853f167c6b5f41d0b98df26f59f7be32/posts/2026-11-27-this-week-in-tech/slide_06.jpg",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@df9f3f8de8e38c4a9bcb63ca5045bb14c776edf0/posts/2026-11-27-this-week-in-tech-story/story.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "day": "Sat",
+      "type": "reel",
+      "slug": "2026-11-28-python-fstring-debug",
+      "topic": "30-second code tip: Python f-string debugging f\"{score=}\" (name=value, works with expressions, since 3.8)",
+      "style": "terminal",
+      "cta": "Comment PYTHON",
+      "media_id": "17916487788587898",
+      "story_media_id": "17988088992166231",
+      "permalink": "https://www.instagram.com/reel/DgSa10FsJuF/",
+      "posted_at_ist": "19:30",
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@61ecdb8b165c8e598ed8490a252016eab1cfc9cf/posts/2026-11-28-python-fstring-debug/reel.mp4",
+        "https://cdn.jsdelivr.net/gh/ajayoneness/codeaj-social@61ecdb8b165c8e598ed8490a252016eab1cfc9cf/posts/2026-11-28-python-fstring-debug/cover.jpg"
+      ]
+    }
+  ],
+  "weekly_notes": []
 }

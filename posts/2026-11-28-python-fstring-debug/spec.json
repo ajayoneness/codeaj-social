@@ -1,0 +1,40 @@
+{
+  "type": "reel",
+  "slug": "2026-11-28-python-fstring-debug",
+  "style": "terminal",
+  "voice": "bf_emma",
+  "caption": "Still typing print(\"x:\", x) to debug? There's a shorter way. 🐍\n\nAdd = inside a Python f-string: print(f\"{score=}\") prints score=92. It shows the variable name and its value, and it works with expressions too, like f\"{score*2=}\". Built into Python since 3.8.\n\nWhat's your go-to debugging trick? Tell us below 👇\nComment PYTHON for more 30-second tips.\n\n#python #pythontips #btechcse #bcaproject #codeaj #codingtips",
+  "scenes": [
+    {
+      "text": "Stop debugging Python like this",
+      "sub": "print(\"score:\", score)",
+      "vo": "Still debugging Python like this? There is a faster way."
+    },
+    {
+      "text": "Add = inside an f-string",
+      "sub": "print(f\"{score=}\")",
+      "vo": "Just put an equals sign inside an f-string."
+    },
+    {
+      "text": "Output: score=92",
+      "sub": "name and value, in one line",
+      "vo": "Python prints the variable name and its value together."
+    },
+    {
+      "text": "Works with expressions too",
+      "sub": "f\"{score*2=}\"  →  score*2=184",
+      "vo": "It works with expressions too, so you see exactly what you calculated."
+    },
+    {
+      "text": "Built in since Python 3.8",
+      "sub": "no import, no library",
+      "vo": "It has been built in since Python three point eight. No imports needed."
+    },
+    {
+      "text": "Comment PYTHON for more tips",
+      "sub": "projects.codeaj.com",
+      "vo": "Want more thirty second tips? Comment, Python."
+    }
+  ],
+  "cta": "Comment PYTHON"
+}
